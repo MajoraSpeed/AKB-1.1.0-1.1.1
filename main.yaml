@@ -1,0 +1,150 @@
+- This route is for 1.1.0/1.1.1 not Early Ascend
+- Run use is WR by Echecetdame_Sr .link(https://www.youtube.com/watch?v=oNlOEmhK-Qw&ab_channel=Echec%C2%B2)
+- Run for Beginer .link(https://www.youtube.com/watch?v=OTl_ftxDTNA&ab_channel=Majora_Speed)
+- remove the gyroscope before starting the run
+- there is no faster language than French English Spanish Russian it is equivalent
+- Intro:
+  - MNF setup:
+      icon: zelda
+      comment: Setup Hard Save for MNF before cutscene Intro
+- Temple of Time:
+  - ROA:
+     icon: ROA
+     color: blue
+     comment: After Intro do CSS and take chest wing and jump to title
+     movements: 
+      - to: [378,1500,-1622]
+      - to: [389.125,1500,-1620.875]
+      - to: [379,1500,-1688.75]
+      - to: [434.5,1500,-1681]
+  - Trees Branchs:
+     icon: arm
+     comment: take 2 tree branch for MNF and go to Billy Senior
+     movements: 
+      - to: [385,1500,-1430.25]
+      - to: [395.375,1500,-1394.125]
+      - to: [421.75,1500,-1364]
+  - BOB:
+     icon: shrine
+     comment: Speak Billy Senior and go to TOT with Early Sheild
+     movements:
+      - to: [450.75,1500,-1314.75]
+      - to: [453,1500,-900.375]  
+- Ascend:
+  - Enter Ascend:
+     color: pink
+     icon: Ascend
+     movements:
+      - to: [450.75,1500,-1314.75]
+      - to: [483,1500,-1327]
+      - to: [740.5,1500,-1404]
+      - to: [753.5,1500,-1352]
+      - to: [729.25,1500,-1349.75]
+      - to: [738.25,1500,-1373.5]
+      - to: [709.13, 1703.65, -1382.69]
+     comment: During the route for enter Ascend recup 4 5 bombs and fire sheild
+  - _Shrine::Gutanbac:
+     icon: Ascend
+     comment: After Rauru dup 4 bombs on the white sand after cut the bridge dup X2 5 bombs
+     notes: .link(https://youtu.be/6ky3tyZV6TU)
+- Fuse:
+  - Enter Fuse:
+     color: green
+     icon: FUSE
+     movements:
+      - to: [686.75,1500,-1378.5]
+      - to: [26.07, 1527.75, -1503.60]
+     comment: After talk Rauru go to Early Battery and enter Fuse
+     notes: .link([Tutorial by Echecetdame_Sr]https://www.youtube.com/watch?v=4L8EjtmN2rM&list=PLpcF2OUKQw8N7eYUoVc0T5yWFot4U4Fwt&index=3&ab_channel=Echecetdame)
+  - _Shrine::Inisa:
+     icon: FUSE
+     comment: Do Fuse normaly and recup bow and arrow and fuse 1 bomb on sheild before cutscene end shrine
+- UltraHand:
+  - Enter Uh:
+     color: red
+     icon: UH
+     comment: Go to FUH Wing and fuse 1 bomb on sheild
+     notes: .link([Tutorial by Plume for beginner]https://www.youtube.com/watch?v=10RLY8ytTH4&ab_channel=Papiplume) .link([For intermediaries]https://youtu.be/7Z-B6jpMfww) .link([For Expert]https://youtu.be/ISA_kN2iHgc)
+  - MNF:
+     icon: arm
+     comment: Setup MNF, after Rauru go to white sand at the left and sheild surf bomb and use + drop equip tree branch ++ drop and reload hard save intro. Do the same with the MNF in the intro. After reload save UH drop the current sword and take MNF.
+     notes: .link([MNF Setup]https://youtu.be/2tPLlXGZfFM)
+     movements:
+      - to: [55.5,1500,-1503.25]
+      - to: [160,1500,-1515]
+      - to: [221,1500,-1412]
+      - to: [226,1500,-1317]
+      - to: [260,1500,-949]
+      - to: [274.91, 1579.28, -912.71]
+- Recall:
+  - Temple of Time 2:
+     icon: shrine
+     color: cyan
+     movements:
+      - to: [453,1500,-900.375]
+      - to: [454,1500,-760]
+     comment: go to TOT with Wing and open door cancel opeing and TP ROA
+     notes: .link([Route on Wing]https://youtu.be/xniM46nZp1Q)
+  - Enter Recall:
+     icon: Recall
+     movements:
+      - to: [370.5,1500,-1731.5]
+      - to: [363,1500,-1743.5]
+      - to: [389.63, 2417.91, -1661.45]
+     comment: Go to Recall and before enter fuse 1 wing on sheild
+  - _Shrine::Nachoyah:
+     icon: Recall
+     comment: Do Recall as Any% 1.2.1
+- Great Sky Island:
+  - TP UH:
+     icon: arm
+     coord: [274.91, 1579.28, -912.71]
+     color: gold
+     comment: climb the wall to optimize the load
+  - Door:
+     icon: shrine
+     comment: redo the same Wing route as TOT2
+     notes: .link([Wing to TOT]https://youtu.be/xniM46nZp1Q)
+     movements:
+      - to: [453,1500,-900.375]
+      - to: [454,1500,-760]
+  - End GSI:
+     icon: zelda
+     notes: .link([Sheild Bomb]https://youtu.be/7NasCrW27ew)
+     coord: [454,1500,-635]
+- 1st Kogha:
+  - TP Fuse:
+     icon: FUSE
+     comment: TP Fuse
+     color: CadetBlue
+     coord: [26.07, 1527.75, -1503.60]
+  - Fairy:
+     icon: fairy
+     comment: go to sheild surf bomb and drop wing, and FDC in island and take 1 fairy, after dup ~15 20 fairy and zuggle 10 9 MNF and FE to pocket rocket on deepths
+     movements:
+      - to: [-1.75,1500,-1500.75]
+      - to: [-154,1500,-1495]
+      - to: [-665.5,1500,-1324]
+      - to: [-675.5,1500,-1329.25]
+      - to: [-673.5,1500,-1333.9375]
+      - to: [-679.8125,1500,-1329.875]
+     notes: .link([Dup Fairy to Pocket Rocket]https://youtu.be/Klk8lUEKkMg)
+  - Enter Kogha: 
+     icon: deepths
+     comment: Go to the deepths and Pocket Rocket and drop wing and talk golem
+     notes: .link([Wing to Kogha]https://youtu.be/ZF8wEIw7Mq0)
+     movements:
+      - to: [-666.125,500,-1512.5] 
+      - to: [-654,-1000,-1549]
+      - to: [-769,-1000,-1896]
+      - to: [-799,-1500,-1926]
+  - Kogha 1:
+     icon: Kogha
+     comment: shoot an arrow in kogha and pocket rocket 1 time then without target kogha hit it 2 times
+     coord: [-757.5,-1000,-1890]
+- ABCS to 2nd Kogha:
+  - ABCS Deepths for expert:
+     icon: ABCS
+     movements: 
+      - to: [-831.875,-1000,-1949.375]
+      
