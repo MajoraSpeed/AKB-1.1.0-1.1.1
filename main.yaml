@@ -3,6 +3,8 @@
 - Run for Beginer .link(https://www.youtube.com/watch?v=OTl_ftxDTNA&ab_channel=Majora_Speed)
 - remove the gyroscope before starting the run
 - there is no faster language than French English Spanish Russian it is equivalent
+- .link([Save Editor]https://www.marcrobledo.com/savegame-editors/zelda-totk/)
+- .link([It's practice save for Emu and hacked Switch]https://drive.google.com/drive/folders/1EIaR7EKBZNQ6sXgpoF-OySrXE0wULXF3?usp=sharing)
 - Intro:
   - MNF setup:
       icon: zelda
@@ -96,7 +98,8 @@
      icon: Recall
      comment: Do Recall as Any% 1.2.1
 - Great Sky Island:
-  - TP UH:
+  # Warping to a shrine
+  - _Warp::Shrine::Ukouh:
      icon: arm
      coord: [274.91, 1579.28, -912.71]
      color: gold
@@ -142,9 +145,72 @@
      icon: Kogha
      comment: shoot an arrow in kogha and pocket rocket 1 time then without target kogha hit it 2 times
      coord: [-757.5,-1000,-1890]
-- ABCS to 2nd Kogha:
+- 2nd Kogha:
   - ABCS Deepths for expert:
      icon: ABCS
+     color: DarkSlateBlue
+     comment: Setup ABCS and go to 2nd Kogha, I advise you to train on a save where the depths are scaled because there are mountains, ravines, climbs and descents that are very difficult to master. And if you don't want to do it go to Fuse
      movements: 
       - to: [-831.875,-1000,-1949.375]
-      
+      - to: [-837,-1000,-2009]
+      - to: [-1087,-1000,-2158]
+      - to: [-1614,-1000,-2274]
+      - to: [-2234,-1000,-2616]
+      - to: [-3812,-1500,-2913]
+     notes: .link([Setup ABCS for ABCS Deepths]https://youtu.be/-QaQh90Pckg)
+  # Warping to a shrine
+  - _Warp::Shrine::Inisa:
+     icon: FUSE
+  - ABCS to 2nd Kogha for Beginner:
+     icon: ABCS
+     notes: .link([ABCS to 2nd Kogha]https://youtu.be/0LOCbj7dabc)
+     comment: Setup ABCS with Fuse and go to East and enter Deepths. After enter deepths aim southwest and ABCS to 2nd Kogha
+     movements: 
+      - to: [-3666,500,-1859]
+      - to: [-3812,-1500,-2913]
+  - 2nd Kogha:
+     icon: Kogha
+     comment: Pocket Rocket and shoot 1 arrow on Kogha and kill Kogha
+     notes: .link([Kogha 2]https://youtu.be/OKUhkqquB4M)
+- 3rd Kogha:
+     # Warping to a shrine
+  - _Warp::Shrine::Gutanbac:
+     icon: Ascend
+     color: Chocolate
+  - ABCS to 3rd Kogha:
+     icon: ABCS
+     movements:
+      - to: [736.5,1500,-1381]
+      - to: [3240.75,650,356]
+      - to: [3256,500,420]
+      - to: [3302,-1000,550]
+     comment: TP Ascend setup ABCS to Nord Est and link must be strong enough to avoid certain islands and lag zones and also to avoid the bloodmoon panic trigger as much as possible. we can stay a little but it is potentially more risky
+     notes: .link([ABCS to Deepths Zora]https://youtu.be/fPMPK9caaaw)
+  - 3rd Kogha:
+     icon: Kogha
+     movements: 
+      - to: [3319,-1500,534]
+      - to: [3341,-1500,496]
+     notes: .link([Kogha 3 fight]https://youtu.be/vqHPQORHB2U)
+     comment: Equip 2nd sheild and shoot 1 arrow to Kogha and jump with target and sheild jump and swimm to kogha and kill kogha
+     # Warping to a shrine
+  - _Warp::Shrine::Ukouh
+- Final Kogha:
+  - ABCS to deepths Rito village:
+     color: BlueViolet
+     icon: ABCS
+     movements: 
+      - to: [260.75,1500,-904.5]
+      - to: [-3598.25,500,1762.5]
+      - to: [-3601,135,1761]
+      - to: [-3576,123,1797]
+      - to: [-3537,-416,1839]
+      - to: [-3465,-416,1860]
+     comment: ABCS to NW and drop above Rito Village and enter deepths rito village. 
+     notes: .link([ABCS To Rito]https://youtu.be/0M7FlCzieRE)
+  - Final Kogha Fight:
+     icon: Kogha
+     comment: In kogha fight shoot Kogha with bomb and go to kill Kogha
+     notes: .link([Final Kogha Fight]https://youtu.be/ZROSnmHkAbA)
+  - Time final:
+     comment: the final time is when Kogha's quest is displayed
